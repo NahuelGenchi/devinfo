@@ -26,20 +26,49 @@
             <span class="h2">DevInfo</span>
             <nav>
                 <ul>
-                    <li><a href="#">Git</a></li>
-                    <li><a href="#">Github</a></li>
-                    <li><a href="#">Google Fonts</a></li>
-                    <li><a href="#">SASS</a></li>
+                    <li><a href="#git">Git</a></li>
+                    <li><a href="#gfonts">Google Fonts</a></li>
+                    <li><a href="#sass">SASS</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main class="mainIndex">
-
+        <article class="mainBody">
+            <section>
+                <h2 id="git" class="h1">Git</h2>
+                <h3>Initialize the Git Repo</h3>
+                <p>Make sure you are in the root directory of the project you want to push to GitHub and run:</p>
+                <code>git init</code>
+                <p>This step creates a hidden <code class="codeInline">.git</code> directory in your project folder which the <code class="codeInline">git</code> software recognizes and uses to store all the metadata and version history for the project.</p>
+                <h3>Add the files to Git index</h3>
+                <code>git add -A</code>
+                <p>The <code class="codeInline">git add</code> command is used to tell git which files to include in a commit, and the <code class="codeInline">-A</code> argument means “include all”.</p>
+                <h3>Commit added files</h3>
+                <code>git commit -m "Added my project"</code>
+                <p>The <code class="codeInline">git commit</code> command creates a new commit with all files that have been “added”. the <code class="codeInline">-m "Added my project"</code> is the message that will be included alongside the commit, used for future reference to understand the commit.</p>
+                <h3>Add new remote origin (in this case, GitHub)</h3>
+                <code>git remote add origin https://github.com/<span class="highlight">UserExample</span>/<span class="highlight">example.git</span></code>
+                <p><span class="strong">Note</span>: Don’t forget to replace the highlighted bits above with your username and repo name.</p>
+                <p>In git, a “remote” refers to a remote version of the same repository, which is typically on a server somewhere (in this case GitHub.) “origin” is the default name git gives to a remote server (you can have multiple remotes) so <code class="codeInline">git remote add origin</code> is instructing git to add the URL of the default remote server for this repo.</p>
+                <h3>Create main branch</h3>
+                <code>git branch -M main</code>
+                <h3>Push to GitHub</h3>
+                <code>git push -u origin main</code>
+                <p>The <code class="codeInline">-u</code> flag sets the remote origin as the default. This lets you later easily just do <code class="codeInline">git push</code> and <code class="codeInline">git pull</code> without having to specifying an origin since we always want GitHub in this case.</p>
+            </section>
+            <section>
+                <h2 id="gfonts">Google Fonts</h2>
+            </section>
+            <section>
+                <h2 id="sass">SASS</h2>
+            </section>
+        </article>
     </main>
     <footer class="footer">
 
     </footer>
+    <!-- Ionicons -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>

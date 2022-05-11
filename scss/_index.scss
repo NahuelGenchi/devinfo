@@ -1,4 +1,40 @@
 .mainIndex {
     min-height: 80vh;
     background-color: #212329;
+    color: rgba(255, 255, 255, 0.80);
+    .mainBody {
+        width: 70%;
+        min-height: 80vh;
+        margin: 0 auto;
+        padding: 10vh 0 5vh 0;
+        section {
+            margin: 0 0 50px 0;
+            h3 {
+                margin: 50px 0 0 0;
+            }
+            p {
+                margin: 15px 0;
+            }
+            code, .codeInline {
+                display: block;
+                margin: 15px 0;
+                padding: 15px;
+                background-color: #161B22;
+                color: white;
+                border-radius: 15px;
+            }
+            .codeInline {
+                display: inline;
+                margin: 0;
+                padding: 2px;
+                border-radius: 0;
+            }
+            .highlight {
+                background-color: rgb(66, 66, 13);
+            }
+            .strong {
+                font-weight: bold;
+            }
+        }
+    }
 }
