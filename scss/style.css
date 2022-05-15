@@ -43,6 +43,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.active {
+  color: white !important;
+}
+
 .header {
   min-height: 10vh;
   display: -webkit-box;
