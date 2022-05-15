@@ -171,4 +171,35 @@
   background-color: #212329;
   border-top: 1px solid gray;
 }
+
+.footer .footerContainer {
+  min-height: 10vh;
+  width: 70%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footerContainer .footerName {
+  color: white;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.footer .footerContainer .footerLogos {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.footer .footerContainer .footerLogos a {
+  color: inherit;
+  margin: 0 0 0 20px;
+}
 /*# sourceMappingURL=style.css.map */
