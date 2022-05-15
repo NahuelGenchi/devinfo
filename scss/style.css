@@ -35,6 +35,14 @@
   font-size: 1.2rem;
 }
 
+.fontFamilySora {
+  font-family: 'Sora', sans-serif;
+}
+
+.fontFamilyPoppins {
+  font-family: 'Poppins', sans-serif;
+}
+
 .header {
   min-height: 10vh;
   display: -webkit-box;
@@ -109,6 +117,11 @@
 
 .mainIndex .mainBody section h3 {
   margin: 50px 0 0 0;
+}
+
+.mainIndex .mainBody section h4 {
+  margin: 30px 0 0 0;
+  font-size: 1rem;
 }
 
 .mainIndex .mainBody section p {
