@@ -132,6 +132,16 @@
   margin: 15px 0;
 }
 
+.mainIndex .mainBody section ol li {
+  margin: 25px 0 25px 15px;
+}
+
+.mainIndex .mainBody section ol li a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .mainIndex .mainBody section code, .mainIndex .mainBody section .codeInline {
   display: block;
   margin: 15px 0;
