@@ -42,8 +42,16 @@
                 <h3>Install SASS</h3>
                 <ol>
                     <li>Install node and npm.</li>
-                    <li>Install SASS from your command line using <code class="codeInline">npm install -g sass</code></li>
-                    <li>Once done, you need to install an extension in VSCode that watches your SCSS files and converts them to regular CSS each time you save. Download the <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass" target="_blank">Live SASS Compiler</a> extension in VSCode.</li>
+                    <li>Start npm
+                        <code>npm init -y</code>
+                    </li>
+                    <li>Install SASS from your command line
+                        <code>npm install sass --save-dev</code>
+                    </li>
+                    <li>Create <code class="codeInline">scss</code> folder and put <code class="codeInline">main.scss</code> inside it</li>
+                    <li>Watch SASS
+                        <code>sass --watch scss:css</code>
+                    </li>
                 </ol>
             </section>
         </article>
