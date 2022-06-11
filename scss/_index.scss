@@ -1,7 +1,7 @@
 .mainIndex {
     min-height: 80vh;
     background-color: #212329;
-    color: rgba(255, 255, 255, 0.80);
+    color: white;
     .mainBody {
         width: 70%;
         min-height: 80vh;
@@ -23,7 +23,7 @@
                 li {
                     margin: 25px 0 25px 15px;
                     a {
-                        color: white;
+                        color: inherit;
                         font-weight: bold;
                         text-decoration: none;
                     }
@@ -51,4 +51,14 @@
             }
         }
     }
+}
+
+.main-dark {
+    background-color: #212329;
+    color: white;
+}
+
+.main-light {
+    background-color: white;
+    color: #4A5667;
 }

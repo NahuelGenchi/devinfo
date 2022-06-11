@@ -2,6 +2,7 @@
     min-height: 10vh;
     background-color: #212329;
     border-top: 1px solid gray;
+    color: white;
     .footerContainer {
         min-height: 10vh;
         width: 70%;
@@ -10,12 +11,12 @@
         justify-content: space-between;
         align-items: center;
         .footerName {
-            color: white;
+            color: inherit;
             font-weight: bold;
             font-size: 0.9rem;
         }
         .footerLogos {
-            color: white;
+            color: inherit;
             font-size: 1.3rem;
             a {
                 color: inherit;
@@ -23,4 +24,14 @@
             }
         }
     }
+}
+
+.footer-dark {
+    background-color: #4A5667;
+    color: white;
+}
+
+.footer-light {
+    background-color: rgb(240, 240, 240);
+    color: #4A5667;
 }

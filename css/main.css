@@ -43,7 +43,7 @@
 }
 
 .active {
-  color: white !important;
+  font-weight: bold;
 }
 
 .header {
@@ -72,16 +72,27 @@
 }
 .header .header-container nav ul li a {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.8);
+  color: inherit;
 }
-.header .header-container nav ul li a:hover {
-  color: rgb(255, 255, 255);
+.header .header-container nav ul #appearance {
+  cursor: pointer;
+}
+
+.header-dark {
+  background-color: #4A5667;
+  color: white;
+}
+
+.header-light {
+  background-color: rgb(240, 240, 240);
+  color: #4A5667;
+  border-bottom: 1px solid gray;
 }
 
 .mainIndex {
   min-height: 80vh;
   background-color: #212329;
-  color: rgba(255, 255, 255, 0.8);
+  color: white;
 }
 .mainIndex .mainBody {
   width: 70%;
@@ -106,7 +117,7 @@
   margin: 25px 0 25px 15px;
 }
 .mainIndex .mainBody section ol li a {
-  color: white;
+  color: inherit;
   font-weight: bold;
   text-decoration: none;
 }
@@ -131,10 +142,21 @@
   font-weight: bold;
 }
 
+.main-dark {
+  background-color: #212329;
+  color: white;
+}
+
+.main-light {
+  background-color: white;
+  color: #4A5667;
+}
+
 .footer {
   min-height: 10vh;
   background-color: #212329;
   border-top: 1px solid gray;
+  color: white;
 }
 .footer .footerContainer {
   min-height: 10vh;
@@ -145,17 +167,27 @@
   align-items: center;
 }
 .footer .footerContainer .footerName {
-  color: white;
+  color: inherit;
   font-weight: bold;
   font-size: 0.9rem;
 }
 .footer .footerContainer .footerLogos {
-  color: white;
+  color: inherit;
   font-size: 1.3rem;
 }
 .footer .footerContainer .footerLogos a {
   color: inherit;
   margin: 0 0 0 20px;
+}
+
+.footer-dark {
+  background-color: #4A5667;
+  color: white;
+}
+
+.footer-light {
+  background-color: rgb(240, 240, 240);
+  color: #4A5667;
 }
 
 /*# sourceMappingURL=main.css.map */

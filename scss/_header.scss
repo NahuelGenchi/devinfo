@@ -21,13 +21,24 @@
                 li {
                     a {
                         text-decoration: none;
-                        color: rgba(255, 255, 255, 0.80);
+                       color: inherit;
                     }
-                    a:hover {
-                        color: rgba(255, 255, 255, 1);
-                    }
+                }
+                #appearance {
+                    cursor: pointer;
                 }
             }
         }
     }
+}
+
+.header-dark {
+    background-color: #4A5667;
+    color: white;
+}
+
+.header-light {
+    background-color: rgb(240, 240, 240);
+    color: #4A5667;
+    border-bottom: 1px solid gray;
 }
