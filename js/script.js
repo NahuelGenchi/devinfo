@@ -1,4 +1,4 @@
-const header = document.querySelector(".header");
+const header = document.querySelector(".header-fixed");
 const main = document.querySelector(".mainIndex");
 const footer = document.querySelector(".footer");
 const appearance = document.querySelector("#appearance");

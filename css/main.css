@@ -48,45 +48,45 @@
 
 .header {
   min-height: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+.header .header-fixed {
+  position: fixed;
+  width: 100vw;
   background-color: #4A5667;
   color: white;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
 }
-.header .header-container {
+.header .header-fixed .header-container {
   min-height: 10vh;
   width: 70%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.header .header-container nav {
+.header .header-fixed .header-container nav {
   width: 40%;
 }
-.header .header-container nav ul {
+.header .header-fixed .header-container nav ul {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   list-style-type: none;
 }
-.header .header-container nav ul li a {
+.header .header-fixed .header-container nav ul li a {
   text-decoration: none;
   color: inherit;
 }
-.header .header-container nav ul #appearance {
+.header .header-fixed .header-container nav ul #appearance {
   cursor: pointer;
 }
-
-.header-dark {
+.header .header-dark {
   background-color: #4A5667;
   color: white;
 }
-
-.header-light {
+.header .header-light {
   background-color: rgb(240, 240, 240);
   color: #4A5667;
-  border-bottom: 1px solid gray;
 }
 
 .mainIndex {
@@ -155,7 +155,7 @@
 .footer {
   min-height: 10vh;
   background-color: #212329;
-  border-top: 1px solid gray;
+  border-top: 1px solid rgba(128, 128, 128, 0.5);
   color: white;
 }
 .footer .footerContainer {
